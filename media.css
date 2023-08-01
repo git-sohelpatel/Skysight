@@ -1,0 +1,41 @@
+
+@media (max-width:600px) {
+    .menu {
+        display: flex;
+
+    }
+
+    .items {
+        display: none;
+        width: 100%;
+        background: #000000d0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .items li {
+        text-align: center;
+
+
+    }
+
+
+    .items li a {
+        padding: 0.5rem 1rem;
+
+
+    }
+
+    .items.active {
+        display: flex;
+
+    }
+}
