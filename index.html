@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkySight</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aldrich&family=Bevan&family=Black+Ops+One&family=Open+Sans:wght@300&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">SkySight</div>
+        <a href="#" class="menu">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1.5em"
+                width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"></path>
+            </svg>
+        </a>
+        <div class="items">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="intro">
+        <h1>SkySight</h1>
+        <p>
+            Welcome to Skysight <br>Where Every Day Begins with the Weather Forecast </p>
+    </div>
+    <div class="info">
+        <div class="time">
+            <span id="text">TIME</span>
+            <span>-</span>
+            <span id="hour">HH</span>
+            <span>:</span>
+            <span id="minute">MM</span>
+            <span>:</span>
+            <span id="second">SS</span>
+            <!-- <span></span> -->
+            <span id="session">AM</span>
+        </div>
+        <!-- <div class="date">Date:DD/MM/YY</div>s -->
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button class="btn"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                        height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                            clip-rule="evenodd"></path>
+                        <path fill-rule="evenodd"
+                            d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                            clip-rule="evenodd"></path>
+                    </svg></button>
+            </div>
+            <div class="weather loading">
+                <h2 class="city">weather in Latur</h2>
+                <div class="temp">51°C</div>
+            </div>
+            <div class="weather-icon">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" class="icon">
+                <span>
+                    <div class="description">Cloudy</div>
+                </span>
+            </div>
+            <div class="feel">Feels like:</div>
+            <div class="humidity">Humidity: 80%</div>
+            <div class="wind">Wind speed: 6Km/h</div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="footer">
+        <Div class="f-logo">SkySight</Div>
+        <p>© Copyright 2022, SkySight.</p>
+        <p>version: 1.0</p>
+       
+    </footer>
+    <script src="index.js"></script>
+    <script src="script.js"></script>
+    <script src="time.js"></script>
+</body>
+
+</html>
