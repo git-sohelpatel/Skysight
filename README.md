@@ -1,3 +1,2 @@
- Skysight is a weather forecast website that provides users with accurate and up-to-date weather information. This web application is built using HTML, CSS, and JavaScript to create a visually appealing and user-friendly interface.
-Skysight fetches real-time weather data from reliable sources and presents users with a detailed forecast for their desired location.
+ SkySight is weather forecasting website that provides users with up-to-date weather information for various locations worldwide. Utilizing data from the reliable OpenWeatherMap.org API, SkySight offers users a range of weather-related features and tools to enhance their understanding of weather conditions and make informed decisions.
 Responsive Design: Skysight is designed to be responsive, ensuring a seamless experience across various devices, including desktops, tablets, and mobile phones.
